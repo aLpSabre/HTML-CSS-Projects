@@ -1,0 +1,164 @@
+hmtl{
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;    
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: #1D1D1F;
+    color: #EDEADE;
+ 
+    
+}
+nav{
+    display: block;
+}
+
+header nav ul {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+header nav ul li{
+    display: flex;
+    text-align: center;
+    margin: 20px 40px;
+    padding-right: 70px;
+    
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #EDEADE	;
+}
+
+h1{
+   padding-left: 200px;
+   text-align: center;
+   padding-top: 7px; 
+}
+
+h1:hover{
+    color:#289b9b;
+}
+@media (max-width: 800px) {
+  
+  }
+#firstsection{
+    margin: 50px auto;
+    text-align: center;
+    display: block;
+    background-color: #E2DFD2;
+    width: 60%;  
+    border-radius: 10px;
+    padding-bottom: 10px;
+    height: 35vw;  
+}
+#image{
+    width: 75%;
+    margin-top: 20px;
+    border-radius: 10px;   
+}
+
+#first_p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 40%;
+    text-align: center;
+   
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+#img2{
+    width: 300px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    
+}
+#mytable{
+  
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+  
+}
+#mytable caption{
+    padding-bottom: 32px;
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+
+#lastsection{
+    width: 60%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+#lastpart{
+    border-color: solid red 10px;
+    text-align: center;
+    color: black;
+    background-color: #E2DFD2;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+footer{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0 ;
+    text-align: center;
+    background-color: #1D1D1F;
+    color: #EDEADE;
+    font-style: italic;
+
+}
