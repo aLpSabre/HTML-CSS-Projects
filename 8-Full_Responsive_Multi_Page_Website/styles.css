@@ -76,7 +76,7 @@ nav img {
   background: transparent;
   position: relative;
   cursor: pointer;
-  transform: 1s;
+  transition: 0.5s;
 }
 .hero-btn:hover {
   border: 1px solid #f44336;
