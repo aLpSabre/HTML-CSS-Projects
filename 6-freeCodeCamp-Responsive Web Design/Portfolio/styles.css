@@ -141,8 +141,8 @@ footer p{
         
     }
     .container{
-        width: 100%;
-        gap: 10px;
+        width: 90%;
+        gap: 30px;
         padding-left: 30px;
     }
     .project-tile{
